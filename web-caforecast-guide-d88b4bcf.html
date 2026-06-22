@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加拿大预测 · 快速了解网站用途</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #faf7f2;
+            color: #2d2a26;
+            line-height: 1.6;
+            padding: 2rem 1.5rem 3rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .page {
+            max-width: 800px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 1.8rem 0 2.5rem;
+            border-bottom: 1px solid #e5dfd6;
+        }
+        .hero h1 {
+            font-size: 2.2rem;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            margin-bottom: 0.6rem;
+            color: #2b241e;
+        }
+        .hero .sub {
+            font-size: 1.1rem;
+            color: #5f554b;
+            max-width: 34em;
+            margin-top: 0.2rem;
+        }
+
+        /* 内容块通用 */
+        section {
+            margin: 2.8rem 0;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 450;
+            margin-bottom: 1rem;
+            color: #2f2822;
+            letter-spacing: -0.02em;
+        }
+        p {
+            margin-bottom: 1.2rem;
+            color: #3d3730;
+        }
+        .highlight-box {
+            background: #f1ece6;
+            border-left: 4px solid #9b8b7a;
+            padding: 1.2rem 1.6rem;
+            margin: 1.8rem 0;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.98rem;
+            color: #3f3831;
+        }
+        .highlight-box strong {
+            font-weight: 500;
+            color: #2b241e;
+        }
+
+        /* 优势卡片 */
+        .card-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.2rem;
+            margin: 1.2rem 0 0.8rem;
+        }
+        .card {
+            background: #ffffffd9;
+            border: 1px solid #e7e0d6;
+            border-radius: 10px;
+            padding: 1.2rem 1rem;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.02);
+        }
+        .card h3 {
+            font-size: 1.05rem;
+            font-weight: 500;
+            margin-bottom: 0.3rem;
+            color: #2f2822;
+        }
+        .card p {
+            font-size: 0.93rem;
+            color: #4e453c;
+            margin-bottom: 0;
+        }
+
+        /* FAQ 摘要 */
+        .faq-list {
+            margin: 1.4rem 0 0.6rem;
+        }
+        .faq-item {
+            padding: 0.8rem 0;
+            border-bottom: 1px solid #e7dfd6;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-q {
+            font-weight: 500;
+            color: #2f2822;
+            margin-bottom: 0.15rem;
+        }
+        .faq-a {
+            font-size: 0.95rem;
+            color: #524940;
+            margin-top: 0.1rem;
+        }
+
+        /* 底部链接 */
+        .footer-links {
+            margin-top: 3rem;
+            padding-top: 1.8rem;
+            border-top: 1px solid #e5dfd6;
+            font-size: 0.95rem;
+            color: #5a5046;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem 1.2rem;
+        }
+        .footer-links a {
+            color: #4f4237;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #c7bcae;
+            transition: color 0.15s, text-decoration-color 0.15s;
+        }
+        .footer-links a:hover {
+            color: #1f1a16;
+            text-decoration-color: #1f1a16;
+        }
+
+        /* 响应式 */
+        @media (max-width: 520px) {
+            body { padding: 1.5rem 1rem 2.5rem; }
+            .hero h1 { font-size: 1.7rem; }
+            .hero .sub { font-size: 1rem; }
+            .card-grid { grid-template-columns: 1fr; }
+            .highlight-box { padding: 1rem 1.2rem; }
+        }
+
+        /* 引言内嵌链接统一样式 */
+        .inline-link {
+            color: #3f382f;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #bfb2a3;
+            transition: color 0.15s;
+        }
+        .inline-link:hover {
+            color: #1d1814;
+            text-decoration-color: #1d1814;
+        }
+
+        /* 小字 */
+        .note {
+            font-size: 0.9rem;
+            color: #6d6257;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <!-- hero 区 -->
+    <header class="hero">
+        <h1>加拿大预测 · 一个简明的信息站点</h1>
+        <div class="sub">如果你正在寻找一个聚焦加拿大相关预测类内容的网站，这里会帮你快速了解它的定位与用法。</div>
+    </header>
+
+    <!-- 优势区 / 特点 -->
+    <section>
+        <h2>为什么这个站点值得留意</h2>
+        <p>网站围绕「加拿大预测」这一主题组织信息，不堆砌术语，也不做过多的包装。它的内容更接近一种轻量的参考——你可以在几分钟内判断它是否对你有用。</p>
+        <div class="card-grid">
+            <div class="card">
+                <h3>切入直接</h3>
+                <p>没有冗余的导航或广告干扰，首页即核心。你看到的，就是网站想表达的。</p>
+            </div>
+            <div class="card">
+                <h3>更新稳定</h3>
+                <p>内容维持着一定的节奏，不会长时间停滞，也不会突然涌入大量无关信息。</p>
+            </div>
+            <div class="card">
+                <h3>风格克制</h3>
+                <p>排版干净、用词平实，适合快速浏览，也适合静下来细读——取决于你的习惯。</p>
+            </div>
+            <div class="card">
+                <h3>领域聚焦</h3>
+                <p>整个站点只围绕「预测」这一个线索展开，不贪多，不旁逸斜出。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 说明区 / 场景 + 提示框 -->
+    <section>
+        <h2>它适合谁、怎么用</h2>
+        <p>不论你是偶尔关注加拿大相关动态，还是需要定期参考一些趋势类信息，<a href="https://web-caforecast.com" class="inline-link">加拿大预测</a>都能提供一个不算嘈杂的阅读起点。你不需要注册，也不需要留下任何信息——打开页面，内容就在那里。</p>
+        <div class="highlight-box">
+            <strong>一点小提示：</strong> 网站的内容更偏向信息罗列与简短分析，而非长篇报告。如果你习惯在碎片时间里快速获取要点，这个节奏会比较贴合。
+        </div>
+        <p>另外，它的结构也适合作为入门参考：你可以先浏览首页，再根据兴趣深入某一篇。没有复杂的分类，每个页面都保持着相似的叙述风格。</p>
+    </section>
+
+    <!-- FAQ 摘要 -->
+    <section>
+        <h2>几个常见疑问 · 摘要</h2>
+        <div class="faq-list">
+            <div class="faq-item">
+                <div class="faq-q">这个网站每天更新吗？</div>
+                <div class="faq-a">更新频率不算固定，但大致保持每周几次的节奏。内容会随着新的信息出现而补充。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">需要付费或注册才能看吗？</div>
+                <div class="faq-a">完全免费，也无需注册。网站没有设置任何付费墙或会员区域。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">预测的准确度如何？</div>
+                <div class="faq-a">网站提供的是基于已有信息的分析与推测，并非确定性结论。建议结合其他渠道综合判断。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">我可以用手机正常浏览吗？</div>
+                <div class="faq-a">可以。页面针对手机和电脑都做了适配，阅读体验基本一致。</div>
+            </div>
+        </div>
+        <p class="note" style="margin-top:0.8rem;">—— 如果你还有其他疑问，可以直接在网站上浏览更多内容，答案往往就在其中。</p>
+    </section>
+
+    <!-- 底部链接 -->
+    <footer class="footer-links">
+        <span>← 直接前往</span>
+        <a href="https://web-caforecast.com">加拿大预测</a>
+        <span style="color:#b9aea3;">·</span>
+        <a href="https://web-caforecast.com" style="text-decoration:none; border-bottom:1px dashed #cec2b5;">加拿大预测</a>
+        <span style="color:#b9aea3;">·</span>
+        <span>内容保持独立，无外部推广</span>
+    </footer>
+
+    <!-- 非常轻的页脚装饰 -->
+    <div style="margin-top:2rem; font-size:0.75rem; color:#b9aea3; text-align:right; letter-spacing:0.5px;">
+        —— 简洁 · 直接 · 不绕弯 ——
+    </div>
+</div>
+</body>
+</html>
